@@ -25,7 +25,7 @@ body {
 main {
   width: 20rem;
   padding: 1.25rem;
-  border: 2px solid wheat;
+  border: 2px solid rgb(22, 215, 96);
   border-radius: 0.8rem;
   background-color: transparent;
   backdrop-filter: blur(25px);
@@ -37,7 +37,7 @@ main header {
   left: 50%;
   transform: translatex(-50%);
   padding: 0.625rem 1.25rem;
-  background-color: white;
+  background-color: rgb(22, 215, 96);
   border-radius: 0 0 0.625rem 0.625rem;
 }
 form {
@@ -49,11 +49,11 @@ form {
 input[type="text"],
 input[type="password"] {
   padding: 12px;
-  border: 2px solid white;
+  border: 2px solid rgb(22, 215, 96);
   border-radius: 1.5625rem;
   outline: none;
   background-color: transparent;
-  color: white;
+  color: rgb(22, 215, 96);
   outline: none;
   width: 100%;
 }
@@ -65,13 +65,13 @@ input[type="password"] {
 label {
   position: absolute;
   left: 14px;
-  color: #fff;
+  color: rgb(22, 215, 96);
   transition: 0.2s;
 }
 i {
   position: absolute;
   right: 14px;
-  color: white;
+  color: rgb(22, 215, 96);
   font-size: 1rem !important;
 }
 .remember_box {
@@ -82,32 +82,32 @@ i {
   font-size: 12px;
 }
 .remember_box a {
-  color: wheat;
+  color: rgb(22, 215, 96);
 }
 
 .remember {
   display: flex;
   align-items: center;
   gap: 5px;
-  color: white;
+  color: rgb(22, 215, 96);
 }
 
 a {
-  color: white;
+  color: rgb(22, 215, 96);
 }
 button {
   border: none;
   padding: 10px;
   border-radius: 25px;
   cursor: pointer;
-  background-color: wheat;
+  background-color: rgb(22, 215, 96);
   font-size: 1.2em;
   font-weight: bold;
 }
 
 input:valid + label,
 input:focus + label {
-  background-color: wheat;
+  background-color: rgb(22, 215, 96);
   color: black;
   transform: translate(10px, -25px);
   padding: 2px 5px;
@@ -120,7 +120,7 @@ input:focus + label {
   justify-content: space-between;
 }
 .new_account p {
-  color: #fff;
+  color: rgb(22, 215, 96);
 }
 
 header::before{
@@ -131,7 +131,7 @@ header::before{
     width: 30px;
     height: 30px;
     background-color: transparent;
-    box-shadow: 15px 0 0 0 white;
+    box-shadow: 15px 0 0 0 rgb(22, 215, 96);
     border-top-right-radius: 50%;
 }
 header::after{
@@ -142,6 +142,6 @@ header::after{
     width: 30px;
     height: 30px;
     background-color: transparent;
-    box-shadow: -15px 0 0 0 white;
+    box-shadow: -15px 0 0 0 rgb(22, 215, 96);
     border-top-left-radius: 50%;
 }
